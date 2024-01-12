@@ -1,12 +1,12 @@
 apiVersion: apps/v1
-kind: Deployment
+kind: Deployment # Oluşturduğumuz Kubernetes kaynak türü
 metadata:
   name: k8s-springboot
 spec:
   selector:
     matchLabels:
       app: k8s-springboot
-  replicas: 1
+  replicas: 2 # Bu dağıtım için oluşturulacak kopyaların sayısı
   template:
     metadata:
       labels:
@@ -14,16 +14,7 @@ spec:
     spec:
       containers:
         - name: k8s-springboot
-          image: k8s-springboot:latest
-          imagePullPolicy: Always
+          image: k8s-springboot # Docker build ederken oluşturduğumuz imaj ismi
+          imagePullPolicy: IfNotPresent
           ports:
-            - name: http
-              containerPort: 8081
-              protocol: TCP
-          resources:
-            requests:
-              cpu: 200m
-              memory: 1Gi
-            limits:
-              cpu: 1
-              memory: 1Gi
+            - containerPort: 8080
