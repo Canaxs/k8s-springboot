@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://medium.com/@mericcana/mailbox-core-92fb5527b13b">
-    <img src="https://www.cdnlogo.com/logos/k/14/kubernetes.svg" alt="Logo" width="80" height="80">
+    <img src="https://www.cdnlogo.com/logos/k/14/kubernetes.svg" alt="Logo" width="150" height="150">
   </a>
 
 <h3 align="center">K8s Spring Boot</h3>
