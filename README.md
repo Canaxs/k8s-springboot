@@ -14,7 +14,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-You can find information about the project here --> [@K8s-SpringBoot App Kubernetes Deploy](https://medium.com/@mericcana/spring-boot-uygulamas%C4%B1-docker-ile-kubernetes-ortama-nas%C4%B1l-deploy-edilir-501cbb2535e9)
+You can find information about the project here --> [@K8s-SpringBoot App Kubernetes Deploy](https://medium.com/@mericcana/how-to-deploy-spring-boot-application-to-kubernetes-environment-with-docker-98be285ccc3b)
+
+Proje hakkındaki bilgiye buradan ulaşabilirsiniz --> [@K8s-SpringBoot Uygulaması Kubernetes Deploy](https://medium.com/@mericcana/spring-boot-uygulamas%C4%B1-docker-ile-kubernetes-ortama-nas%C4%B1l-deploy-edilir-501cbb2535e9)
 
 
 <!-- LICENSE -->
